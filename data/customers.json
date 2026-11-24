@@ -1,0 +1,107 @@
+{
+  "C101": {
+    "name": "Priya Sharma",
+    "city": "Chennai",
+    "orders": [
+      {
+        "order_id": "SE-1001",
+        "product": "Wireless Earbuds Pro",
+        "category": "Electronics",
+        "price": 2499,
+        "delivery_fee": 0,
+        "payment": "UPI",
+        "status": "Delivered",
+        "ordered_days_ago": 7,
+        "delivered_days_ago": 4
+      },
+      {
+        "order_id": "SE-1002",
+        "product": "Cotton Kurta (Blue, M)",
+        "category": "Fashion",
+        "price": 1299,
+        "delivery_fee": 0,
+        "payment": "Card",
+        "status": "Delivered",
+        "ordered_days_ago": 39,
+        "delivered_days_ago": 35
+      },
+      {
+        "order_id": "SE-1003",
+        "product": "Steel Water Bottle 1L",
+        "category": "Home & Kitchen",
+        "price": 399,
+        "delivery_fee": 49,
+        "payment": "UPI",
+        "status": "Shipped",
+        "ordered_days_ago": 1,
+        "arrives_in_days": 2
+      }
+    ]
+  },
+  "C102": {
+    "name": "Arjun Kumar",
+    "city": "Bengaluru",
+    "orders": [
+      {
+        "order_id": "SE-2001",
+        "product": "Running Shoes Swift (Size 9)",
+        "category": "Sports",
+        "price": 3199,
+        "delivery_fee": 0,
+        "payment": "Cash on Delivery",
+        "status": "Delivered",
+        "ordered_days_ago": 16,
+        "delivered_days_ago": 12
+      },
+      {
+        "order_id": "SE-2002",
+        "product": "Smartwatch Fit 2",
+        "category": "Electronics",
+        "price": 5999,
+        "delivery_fee": 0,
+        "payment": "Card",
+        "status": "Delivered",
+        "ordered_days_ago": 18,
+        "delivered_days_ago": 15
+      },
+      {
+        "order_id": "SE-2003",
+        "product": "Organic Honey 500g",
+        "category": "Grocery",
+        "price": 349,
+        "delivery_fee": 49,
+        "payment": "UPI",
+        "status": "Delivered",
+        "ordered_days_ago": 6,
+        "delivered_days_ago": 3
+      }
+    ]
+  },
+  "C103": {
+    "name": "Meena Iyer",
+    "city": "Coimbatore",
+    "orders": [
+      {
+        "order_id": "SE-3001",
+        "product": "Python for Beginners (Book)",
+        "category": "Books",
+        "price": 450,
+        "delivery_fee": 49,
+        "payment": "Net Banking",
+        "status": "Processing",
+        "ordered_days_ago": 0
+      },
+      {
+        "order_id": "SE-3002",
+        "product": "Mixer Grinder 750W",
+        "category": "Home & Kitchen",
+        "price": 3499,
+        "delivery_fee": 0,
+        "payment": "ShopEase Wallet",
+        "status": "Delivered",
+        "ordered_days_ago": 4,
+        "delivered_days_ago": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopAssist · ShopEase customer support</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="top">
+    <img class="logo" src="/static/logo.png" alt="PROITBRIDGE">
+    <span class="sep" aria-hidden="true"></span>
+    <div class="brand"><b>ShopAssist</b><span>ShopEase customer support &middot; Agno multi-agent team</span></div>
+    <div class="chips">
+      <span class="chip" id="chip-host"><i></i>Starting&hellip;</span>
+      <span class="chip" id="chip-model"><i></i>Model</span>
+      <span class="chip" id="chip-key"><i></i>API key</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="side">
+      <section class="card">
+        <h3>Signed in as</h3>
+        <div class="people" id="people"></div>
+      </section>
+      <section class="card">
+        <h3>Their orders</h3>
+        <ul class="orders" id="orders"></ul>
+      </section>
+      <section class="card team">
+        <h3>The team</h3>
+        <div class="member lead"><span class="ic">SA</span><div><b>ShopAssist</b><small>Team leader &middot; routes each question</small></div></div>
+        <div class="member"><span class="ic">OD</span><div><b>Orders Desk</b><small>Orders, returns, refunds</small></div></div>
+        <div class="member"><span class="ic">PD</span><div><b>Policy Desk</b><small>Store Policy PDF</small></div></div>
+        <div class="member"><span class="ic">PR</span><div><b>Product Desk</b><small>Catalogue, price, stock</small></div></div>
+      </section>
+    </aside>
+
+    <main class="chat">
+      <div class="notice" id="notice" hidden></div>
+      <div class="thread" id="thread">
+        <div class="welcome" id="welcome">
+          <h1>Hi <span id="w-name">there</span>, how can we help?</h1>
+          <p>Ask about your orders, returns, refunds, store rules or products. The team leader sends each question to the right desk.</p>
+          <div class="suggest" id="suggest"></div>
+        </div>
+      </div>
+      <form class="composer" id="composer">
+        <button type="button" class="ghost" id="new-chat" title="Start a new chat and clear this customer's memory">New chat</button>
+        <textarea id="input" rows="1" placeholder="Type your question&hellip;" aria-label="Your question"></textarea>
+        <button type="submit" class="send" id="send">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

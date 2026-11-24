@@ -1,0 +1,98 @@
+[
+  {
+    "product_id": "P01",
+    "name": "Wireless Earbuds Pro",
+    "category": "Electronics",
+    "price": 2499,
+    "stock": 14,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P02",
+    "name": "Smartwatch Fit 2",
+    "category": "Electronics",
+    "price": 5999,
+    "stock": 0,
+    "rating": 4.1
+  },
+  {
+    "product_id": "P03",
+    "name": "Bluetooth Speaker Mini",
+    "category": "Electronics",
+    "price": 1799,
+    "stock": 25,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P04",
+    "name": "Running Shoes Swift",
+    "category": "Sports",
+    "price": 3199,
+    "stock": 8,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P05",
+    "name": "Running Shoes Air Lite",
+    "category": "Sports",
+    "price": 4499,
+    "stock": 3,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P06",
+    "name": "Yoga Mat 6mm",
+    "category": "Sports",
+    "price": 899,
+    "stock": 40,
+    "rating": 4.2
+  },
+  {
+    "product_id": "P07",
+    "name": "Cotton Kurta (Blue)",
+    "category": "Fashion",
+    "price": 1299,
+    "stock": 22,
+    "rating": 4.0
+  },
+  {
+    "product_id": "P08",
+    "name": "Denim Jacket",
+    "category": "Fashion",
+    "price": 2799,
+    "stock": 0,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P09",
+    "name": "Steel Water Bottle 1L",
+    "category": "Home & Kitchen",
+    "price": 399,
+    "stock": 60,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P10",
+    "name": "Mixer Grinder 750W",
+    "category": "Home & Kitchen",
+    "price": 3499,
+    "stock": 6,
+    "rating": 4.2
+  },
+  {
+    "product_id": "P11",
+    "name": "Python for Beginners (Book)",
+    "category": "Books",
+    "price": 450,
+    "stock": 18,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P12",
+    "name": "Organic Honey 500g",
+    "category": "Grocery",
+    "price": 349,
+    "stock": 35,
+    "rating": 4.5
+  }
+]

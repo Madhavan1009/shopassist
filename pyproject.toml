@@ -1,0 +1,18 @@
+[project]
+name = "shopassist"
+version = "1.0.0"
+description = "ShopAssist - ShopEase customer support with an Agno multi-agent team"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "agno==3.0.10",
+    "fastapi==0.165.0",
+    "openai==3.57.0",
+    "pydantic==2.14.4",
+    "pypdf==7.1.1",
+    "python-dotenv==1.2.4",
+    "sqlalchemy[asyncio]==2.1.9",
+    "uvicorn==0.54.0",
+]
+
+[tool.uv]
+package = false
